@@ -8,5 +8,9 @@
     ~/.gitconfig: gitconfig
     ~/.Xresources: Xresources
     ~/.xinitrc: xinitrc
-
-
+    ~/.gtkrc-2.0: gtkrc-2.0
+    ~/.ssh: ssh
+    ~/.config/Code: config/Code
+    ~/.config/bspwm: config/bspwm
+    ~/.config/sxhkd: config/sxhkd
+    ~/.config/gtk-2.0: config/gtk-2.0
