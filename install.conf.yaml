@@ -3,6 +3,9 @@
       create: true
       force: true
       relink: true
+    shell:
+      stdout: true
+      stderr: true
 
 - clean: ['~']
 
@@ -20,3 +23,6 @@
     ~/.config/bspwm: config/bspwm
     ~/.config/sxhkd: config/sxhkd
     ~/.config/gtk-2.0: config/gtk-2.0
+
+- shell:
+  - [. installer/install-tdrop.sh, Installing tdrop-git]

@@ -2,6 +2,9 @@
 # wm independent hotkeys
 #
 
+super + grave
+	tdrop -a -w 90% -h 45% -x 192 urxvt
+
 # terminal emulator
 super + Return
 	urxvt
@@ -71,8 +74,8 @@ super + bracket{left,right}
 	bspc desktop -f {prev,next}
 
 # focus the last node/desktop
-super + {grave,Tab}
-	bspc {node,desktop} -f last
+# super + {grave,Tab}
+#	bspc {node,desktop} -f last
 
 # focus the older or newer node in the focus history
 super + {o,i}
