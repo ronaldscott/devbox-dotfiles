@@ -3,7 +3,7 @@
 #
 
 super + grave
-	tdrop -a -w 90% -h 45% -x 192 urxvt
+	tdrop -a -w 90% -h 75% -x 192 urxvt
 
 # terminal emulator
 super + Return

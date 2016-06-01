@@ -23,6 +23,9 @@
     ~/.config/bspwm: config/bspwm
     ~/.config/sxhkd: config/sxhkd
     ~/.config/gtk-2.0: config/gtk-2.0
+    ~/.config/lemonbar: config/lemonbar
 
 - shell:
-  - [. installer/install-tdrop.sh, Installing tdrop-git]
+  - [. installer/install-tdrop.sh, Installing tdrop]
+  - [. installer/install-lemonbar.sh, Installing lemonbar]
+  - [. installer/install-barr.sh, Installing barr]
