@@ -29,3 +29,4 @@
   - [. installer/install-tdrop.sh, Installing tdrop]
   - [. installer/install-lemonbar.sh, Installing lemonbar]
   - [. installer/install-barr.sh, Installing barr]
+  - [. installer/install-chrome.sh, Installing chrome]
