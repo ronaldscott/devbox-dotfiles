@@ -20,13 +20,13 @@ require 'barr'
 # If FontAwesome font is available to lemonbar, it will be prepended with a clock icon.
 @manager.add Barr::Blocks::Clock.new(icon: "\uf017", format: '%H:%M', align: :c, interval: 1)
 
-
 # Add a 'CPU' block. This shows the current CPU usage (averaged across all cores if present)
 # It will be aligned to the right side of of the bar
 # As an interval is not provided, it will update every 5 seconds.
 # It will be prepended with the text 'Cpu:'
-@manager.add Barr::Blocks::CPU.new(icon: 'Cpu:', align: :r)
+# @manager.add Barr::Blocks::CPU.new(icon: 'Cpu:', align: :r)
 
+@manager.add Barr::Blocks::Bspwm.new(monitor: "VGA-1", invert_focus_colors: true, align: :r, interval: 1)
 
 # Tell the manager to run the loop. This will continue indefinitely, outputing the data ready to be piped in to lemonbar.
 @manager.run!
