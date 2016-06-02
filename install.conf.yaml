@@ -25,16 +25,7 @@
 - shell:
 #  - [chmod +x installer/install-from-aur.sh]
   - [chmod 600 ssh/id_rsa]
-  - 
-    command: pacaur -Sya --needed --noconfirm --noedit --silent --noprogressbar tdrop-git
-    stdout: true
-    stderr: true
-  - 
-    command: pacaur -Sya --needed --noconfirm --noedit --silent --noprogressbar lemonbar-xft-git
-    stdout: true
-    stderr: true
-  - 
-    command: pacaur -Sya --needed --noconfirm --noedit --silent --noprogressbar ruby-barr
-    stdout: true
-    stderr: true
+  - [pacaur -Sya --needed --noconfirm --noedit --silent --noprogressbar tdrop-git > tdrop.log]
+  - [pacaur -Sya --needed --noconfirm --noedit --silent --noprogressbar lemonbar-xft-git > lemonbar.log]
+  - [pacaur -Sya --needed --noconfirm --noedit --silent --noprogressbar ruby-barr > barr.log]
 #  - [installer/install-from-aur.sh google-chrome, Installing chrome]
