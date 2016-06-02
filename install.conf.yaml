@@ -23,9 +23,4 @@
     ~/.config/lemonbar: config/lemonbar
 
 - shell:
-#  - [chmod +x installer/install-from-aur.sh]
   - [chmod 600 ssh/id_rsa]
-  - [pacaur -Sy --noconfirm --noedit tdrop-git > tdrop.log]
-#  - [pacaur -Sy --noconfirm --noedit lemonbar-xft-git > lemonbar.log]
-  - [pacaur -Sy --noconfirm --noedit ruby-barr > barr.log]
-#  - [installer/install-from-aur.sh google-chrome, Installing chrome]
