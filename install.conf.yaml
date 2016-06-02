@@ -27,12 +27,9 @@
     ~/.config/lemonbar: config/lemonbar
 
 - shell:
-#  - [chmod +x installer/*.sh]
+  - [chmod +x installer/install-from-aur.sh]
   - [chmod 600 ssh/id_rsa]
-#  - [pacaur -Sya --needed --noconfirm --noedit --silent --noprogressbar tdrop-git, Installing tdrop]
-#  - [pacaur -Sya --needed --noconfirm --noedit --silent --noprogressbar lemonbar-xft-git, Installing lemonbar]
-#  - [pacaur -Sya --needed --noconfirm --noedit --silent --noprogressbar ruby-barr, Installing barr]
-#  - [pacaur -Sya --needed --noconfirm --noedit --silent --noprogressbar google-chrome, Installing chrome]
-#  - [. installer/install-lemonbar.sh, Installing lemonbar]
-#  - [. installer/install-barr.sh, Installing barr]
-#  - [. installer/install-chrome.sh, Installing chrome]
+  - [installer/install-from-aur.sh tdrop-git, Installing tdrop]
+  - [installer/install-from-aur.sh lemonbar-xft-git, Installing lemonbar]
+  - [installer/install-from-aur.sh ruby-barr, Installing barr]
+#  - [installer/install-from-aur.sh google-chrome, Installing chrome]
