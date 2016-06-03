@@ -21,6 +21,7 @@
     ~/.config/sxhkd: config/sxhkd
     ~/.config/gtk-2.0: config/gtk-2.0
     ~/.config/lemonbar: config/lemonbar
+    ~/.weechat: weechat
 
 - shell:
   - [chmod 600 ssh/id_rsa]
