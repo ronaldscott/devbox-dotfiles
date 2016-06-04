@@ -33,6 +33,8 @@ if [ -f "$usermodmap" ]; then
     xmodmap "$usermodmap"
 fi
 
+xsetroot -cursor_name left_ptr
+
 /usr/bin/VBoxClient-all
 
 ruby ~/.config/lemonbar/bar.rb | lemonbar -b -d -B "#333333" -f "Roboto Mono Medium:size=11" -f "Font Awesome:size=11" | sh &
