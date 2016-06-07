@@ -24,6 +24,7 @@
     ~/.weechat: weechat
     ~/.fluxbox: fluxbox
     ~/.stalonetrayrc: stalonetrayrc
+    ~/.purple: purple
 
 - shell:
   - [chmod 600 ssh/id_rsa]

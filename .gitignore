@@ -1,2 +1,4 @@
 config/Code/storage.json
 *.weechatlog
+purple/logs/**
+purple/icons/**

@@ -35,9 +35,9 @@ URxvt.lineSpace:            0
 ! Fonts
 URxvt.allow_bold:           false
 
-URxvt*font: xft:Consolas:size=12,\
+URxvt*font: xft:Consolas:size=11,\
             -*-unifont-*-*-*-*-*-*-*-*-*-*-*-*
-URxvt*boldFont: xft:Consolas:size=12,\
+URxvt*boldFont: xft:Consolas:size=11,\
             -*-unifont-*-*-*-*-*-*-*-*-*-*-*-*
 
 ! Fix font space
