@@ -2,4 +2,4 @@ config/Code/storage.json
 *.weechatlog
 purple/logs/**
 purple/icons/**
-blist.xml
+purple/blist.xml
