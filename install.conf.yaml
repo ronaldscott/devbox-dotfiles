@@ -25,6 +25,8 @@
     ~/.fluxbox: fluxbox
     ~/.stalonetrayrc: stalonetrayrc
     ~/.purple: purple
+    ~/.gntpositions: gntpositions
+    ~/.gntrc: gntrc
 
 - shell:
   - [chmod 600 ssh/id_rsa]
