@@ -21,7 +21,6 @@
     ~/.config/sxhkd: config/sxhkd
     ~/.config/gtk-2.0: config/gtk-2.0
     ~/.config/lemonbar: config/lemonbar
-    ~/.weechat: weechat
     ~/.fluxbox: fluxbox
     ~/.stalonetrayrc: stalonetrayrc
     ~/.purple: purple
