@@ -20,8 +20,7 @@
     ~/.config/bspwm: config/bspwm
     ~/.config/sxhkd: config/sxhkd
     ~/.config/gtk-2.0: config/gtk-2.0
-    ~/.config/lemonbar: config/lemonbar
-    ~/.fluxbox: fluxbox
+    ~/.config/yabar: config/yabar
     ~/.stalonetrayrc: stalonetrayrc
     ~/.purple: purple
     ~/.gntpositions: gntpositions
@@ -30,3 +29,5 @@
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
   - [chmod 600 ssh/id_rsa]
+  - [chmod +x provision/provision.sh]
+  - [provision/provision.sh]

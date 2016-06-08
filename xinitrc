@@ -38,7 +38,6 @@ xsetroot -cursor_name left_ptr
 /usr/bin/VBoxClient-all
 
 stalonetray & 
-fbpager &
-~/.config/lemonbar/bar.sh | lemonbar -g 300x50+3530+2110 -p -f "xft:Arial:size=10" &
+yabar & 
 sxhkd &
 exec bspwm
