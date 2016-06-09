@@ -21,11 +21,13 @@
     ~/.config/sxhkd: config/sxhkd
     ~/.config/gtk-2.0: config/gtk-2.0
     ~/.config/yabar: config/yabar
+    ~/.config/termite: config/termite
     ~/.stalonetrayrc: stalonetrayrc
     ~/.purple: purple
     ~/.gntpositions: gntpositions
     ~/.gntrc: gntrc
-
+    ~/.vscode: vscode
+    
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
   - [chmod 600 ssh/id_rsa]
