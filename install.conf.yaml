@@ -27,6 +27,7 @@
     ~/.gntpositions: gntpositions
     ~/.gntrc: gntrc
     ~/.vscode: vscode
+    ~/.asoundrc: asoundrc
     
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
