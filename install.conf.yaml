@@ -28,6 +28,7 @@
     ~/.gntrc: gntrc
     ~/.vscode: vscode
     ~/.asoundrc: asoundrc
+    ~/.profile.d: profile.d
     
 - shell:
   - [git submodule update --init --recursive, Installing submodules]

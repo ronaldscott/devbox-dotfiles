@@ -1,0 +1,1 @@
+*.bash in here will get sourced into Bash from .bashrc.

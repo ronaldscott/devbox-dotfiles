@@ -3,3 +3,4 @@ config/Code/storage.json
 purple/logs/**
 purple/icons/**
 purple/blist.xml
+profile.d/*.bash
