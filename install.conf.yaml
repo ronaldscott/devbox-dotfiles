@@ -35,4 +35,4 @@
   - [chmod 600 ssh/id_rsa]
   - [chmod +x provision/provision.sh]
   - [provision/provision.sh]
-  - [chmod +x .config/bspwm/external_rules]
+  - [chmod +x config/bspwm/external_rules]
