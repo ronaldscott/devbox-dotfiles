@@ -28,6 +28,7 @@
     ~/.vscode: vscode
     ~/.asoundrc: asoundrc
     ~/.profile.d: profile.d
+    ~/.vimrc: vimrc
     
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
