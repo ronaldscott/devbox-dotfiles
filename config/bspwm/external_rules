@@ -1,0 +1,10 @@
+#! /bin/sh
+
+wid=$1
+class=$2
+instance=$3
+title=$(xtitle "$wid")
+
+if [ "$instance" = gsimplecal ] ; then
+  xdotool windowmove $wid 3370 1755
+fi

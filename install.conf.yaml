@@ -23,10 +23,8 @@
     ~/.config/yabar: config/yabar
     ~/.config/termite: config/termite
     ~/.config/powerline: config/powerline
+    ~/.config/gsimplecal: config/gsimplecal
     ~/.stalonetrayrc: stalonetrayrc
-    ~/.purple: purple
-    ~/.gntpositions: gntpositions
-    ~/.gntrc: gntrc
     ~/.vscode: vscode
     ~/.asoundrc: asoundrc
     ~/.profile.d: profile.d
@@ -36,3 +34,4 @@
   - [chmod 600 ssh/id_rsa]
   - [chmod +x provision/provision.sh]
   - [provision/provision.sh]
+  - [chmod +x .config/bspwm/external_rules]

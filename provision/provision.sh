@@ -9,5 +9,6 @@ pacaur -Sy --noconfirm --noedit glances
 pacaur -Sy --noconfirm --noedit ncdu
 pacaur -Sy --noconfirm --noedit powerline
 pacaur -Sy --noconfirm --noedit ttf-roboto-mono-powerline-git
+pacaur -Sy --noconfirm --noedit gsimplecal-gtk2
 
 curl -s -L https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash > ~/.profile.d/git-completion.bash
