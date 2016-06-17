@@ -45,6 +45,10 @@ super + g
 super + c
 	bspc node -c
 
+# mouse click focus
+~button1
+    bspc pointer -g focus
+
 #
 # state/flags
 #
