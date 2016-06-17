@@ -41,6 +41,10 @@ super + y
 super + g
 	bspc node -s biggest
 
+# close a window
+super + c
+	bspc node -c
+
 #
 # state/flags
 #
@@ -120,5 +124,9 @@ super + alt + shift + {h,j,k,l}
 	bspc node -z {right -20 0,top 0 20,bottom 0 -20,left 20 0}
 
 # move a floating window
-super + {Left,Down,Up,Right}
-	bspc node -v {-20 0,0 20,0 -20,20 0}
+super + {Left,Right,Up,Down}
+	xdo move {-x -40,-x +40,-y -40,-y +40}
+
+# resize a window
+super + shift + {Left,Right,Up,Down}
+	xdo resize {-w -40,-w +40,-h -40,-h +40}
