@@ -1,6 +1,3 @@
 config/Code/storage.json
-*.weechatlog
-purple/logs/**
-purple/icons/**
-purple/blist.xml
 profile.d/*.bash
+vim/.netrwhist

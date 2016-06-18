@@ -28,6 +28,7 @@
     ~/.asoundrc: asoundrc
     ~/.profile.d: profile.d
     ~/.vimrc: vimrc
+    ~/.vim: vim
     
 - shell:
   - [git submodule update --init --recursive, Installing submodules]

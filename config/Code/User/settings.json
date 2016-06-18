@@ -1,6 +1,6 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "editor.fontFamily": "'Consolas'",
-    "editor.fontSize": 9,
-    "window.zoomLevel": 1
+    "editor.fontFamily": "Roboto Mono Medium for Powerline",
+    "editor.fontSize": 11,
+    "terminal.integrated.fontFamily": "Roboto Mono Medium for Powerline"
 }
