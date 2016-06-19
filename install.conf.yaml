@@ -30,7 +30,8 @@
     ~/.vimrc: vimrc
     ~/.vim/bundle/vim-pathogen: vim-pathogen
     ~/.vim/bundle/vim-vinegar: vim-vinegar
-    
+    ~/.vim/bundle/vim-toml: vim-toml
+
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
   - [chmod +x provision/provision.sh]
