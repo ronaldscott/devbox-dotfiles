@@ -28,7 +28,8 @@
     ~/.asoundrc: asoundrc
     ~/.profile.d: profile.d
     ~/.vimrc: vimrc
-    ~/.vim: vim
+    ~/.vim/bundle/vim-pathogen: vim-pathogen
+    ~/.vim/bundle/vim-vinegar: vim-vinegar
     
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
