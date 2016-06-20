@@ -1,3 +1,4 @@
 config/Code/storage.json
 profile.d/*.bash
 vim/.netrwhist
+*.swp
