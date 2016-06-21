@@ -31,6 +31,7 @@
     ~/.vim/bundle/vim-pathogen: vim-pathogen
     ~/.vim/bundle/vim-vinegar: vim-vinegar
     ~/.vim/bundle/vim-toml: vim-toml
+    ~/.vim/bundle/yats.vim: yats.vim
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
