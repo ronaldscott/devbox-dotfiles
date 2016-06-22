@@ -19,3 +19,7 @@ if [ -f /usr/lib/python3.5/site-packages/powerline/bindings/bash/powerline.sh ];
   POWERLINE_BASH_SELECT=1
   source /usr/lib/python3.5/site-packages/powerline/bindings/bash/powerline.sh
 fi
+
+export PAGER=/usr/local/bin/vimpager
+alias less=$PAGER
+alias zless=$PAGER
