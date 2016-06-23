@@ -2,16 +2,16 @@
 	path = dotbot
 	url = https://github.com/anishathalye/dotbot
 [submodule "vim-pathogen"]
-	path = vim-pathogen
+	path = vim/bundle/vim-pathogen
 	url = https://github.com/tpope/vim-pathogen.git
 [submodule "vim-vinegar"]
-	path = vim-vinegar
+	path = vim/bundle/vim-vinegar
 	url = https://github.com/tpope/vim-vinegar
 [submodule "vim-toml"]
-	path = vim-toml
+	path = vim/bundle/vim-toml
 	url = https://github.com/cespare/vim-toml.git
 [submodule "yats.vim"]
-	path = yats.vim
+	path = vim/bundle/yats.vim
 	url = https://github.com/HerringtonDarkholme/yats.vim.git
 [submodule "liquidprompt"]
 	path = liquidprompt
