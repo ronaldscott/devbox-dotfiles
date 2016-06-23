@@ -30,9 +30,8 @@
     ~/.vimrc: vimrc
     ~/.vim: vim 
     ~/liquidprompt: liquidprompt
+    ~/.bin: bin
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
-  - [chmod +x provision/provision.sh]
   - [provision/provision.sh]
-  - [chmod +x config/bspwm/external_rules]

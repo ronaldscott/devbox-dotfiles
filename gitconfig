@@ -3,3 +3,5 @@
 	email = ronaldscott@gmail.com
 [core]
 	editor = vim
+[alias]
+	pushl = !~/.bin/git/pushl.sh
