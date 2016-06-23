@@ -2,8 +2,21 @@
 # wm independent hotkeys
 #
 
-super + grave
-	tdrop -a -w 90% -h 75% -x 192 termite
+# left panel
+super + shift + a
+	tdrop --number=1 -a -w 75% -h 90% -x -1 -y 108 termite
+
+# right panel
+super + shift + d
+	tdrop --number=2 -a -w 75% -h 90% -y 108 -x 961 termite
+
+# top panel
+super + shift + w
+	tdrop --number=3 -a -w 90% -h 75% -y -1 -x 192 termite
+
+# bottom panel
+super + shift + s
+	tdrop --number=4 -a -w 90% -h 75% -x 192 -y 508 termite
 
 # terminal emulator
 super + Return
