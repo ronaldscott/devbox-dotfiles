@@ -13,3 +13,6 @@
 [submodule "yats.vim"]
 	path = yats.vim
 	url = https://github.com/HerringtonDarkholme/yats.vim.git
+[submodule "liquidprompt"]
+	path = liquidprompt
+	url = https://github.com/nojhan/liquidprompt.git

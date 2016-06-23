@@ -32,6 +32,7 @@
     ~/.vim/bundle/vim-vinegar: vim-vinegar
     ~/.vim/bundle/vim-toml: vim-toml
     ~/.vim/bundle/yats.vim: yats.vim
+    ~/liquidprompt: liquidprompt
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
