@@ -37,7 +37,7 @@ xsetroot -cursor_name left_ptr
 
 /usr/bin/VBoxClient-all
 
-stalonetray & 
 yabar & 
+stalonetray & 
 sxhkd &
 exec bspwm
