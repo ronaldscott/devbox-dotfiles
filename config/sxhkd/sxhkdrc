@@ -4,7 +4,8 @@
 
 # left panel
 super + shift + a
-	tdrop --number=1 -a -w 75% -h 90% -x -1 -y 108 termite
+#	tdrop --number=1 -a -w 75% -h 90% -x -1 -y 108 termite
+	termite --class=scratchpadW
 
 # right panel
 super + shift + d
@@ -57,10 +58,6 @@ super + g
 # close a window
 super + c
 	bspc node -c
-
-# mouse click focus
-~button1
-    bspc pointer -g focus
 
 #
 # state/flags
