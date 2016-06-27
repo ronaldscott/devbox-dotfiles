@@ -2,22 +2,21 @@
 # wm independent hotkeys
 #
 
-# left panel
+# west panel
 super + shift + a
-#	tdrop --number=1 -a -w 75% -h 90% -x -1 -y 108 termite
-	termite --class=scratchpadW
+	~/.config/sxhkd/sp.sh termitesp termitespw 2880x1944+0+108
 
-# right panel
+# east panel
 super + shift + d
-	tdrop --number=2 -a -w 75% -h 90% -y 108 -x 961 termite
+	~/.config/sxhkd/sp.sh termitesp termitespe 2880x1944+960+108
 
-# top panel
+# north panel
 super + shift + w
-	tdrop --number=3 -a -w 90% -h 75% -y -1 -x 192 termite
+	~/.config/sxhkd/sp.sh termitesp termitespn 3456x1620+192+0
 
-# bottom panel
+# south panel
 super + shift + s
-	tdrop --number=4 -a -w 90% -h 75% -x 192 -y 508 termite
+	~/.config/sxhkd/sp.sh termitesp termitesps 3456x1620+192+506
 
 # terminal emulator
 super + Return
