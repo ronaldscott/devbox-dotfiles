@@ -34,4 +34,5 @@
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
+  - [cd vim/bundle/vimproc.vim && make]
   - [provision/provision.sh]

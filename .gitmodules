@@ -16,3 +16,12 @@
 [submodule "liquidprompt"]
 	path = liquidprompt
 	url = https://github.com/nojhan/liquidprompt.git
+[submodule "vim/bundle/vimproc.vim"]
+	path = vim/bundle/vimproc.vim
+	url = https://github.com/Shougo/vimproc.vim.git
+[submodule "vim/bundle/tsuquyomi"]
+	path = vim/bundle/tsuquyomi
+	url = https://github.com/Quramy/tsuquyomi.git
+[submodule "vim/bundle/syntastic"]
+	path = vim/bundle/syntastic
+	url = https://github.com/scrooloose/syntastic.git
