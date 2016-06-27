@@ -10,11 +10,15 @@
 #
 # Dependencies
 # - bspwm, with a rule in bspwmrc similar to 'bspc rule -a [CLASS] state=floating'
-#   (where CLASS) is the same CLASS value passed to sp.sh
+#   (where CLASS is the same CLASS value passed to sp.sh)
 # - termite
 # - xdotool
 
+cmd='/bin/bash'
+if [ "$4" ]; then
+	cmd="$4"
+fi
 
 xdotool search --onlyvisible --classname $2 windowunmap \
 	|| xdotool search --classname $2 windowmap \
-	|| termite --class=$1 --name=$2 --geometry=$3
+	|| termite --class=$1 --name=$2 --geometry=$3 --exec="$cmd"

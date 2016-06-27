@@ -2,21 +2,29 @@
 # wm independent hotkeys
 #
 
-# west panel
+# reset scratchpads
+super + shift + Escape
+	xdo close -N termitesp
+
+# west scratchpad
 super + shift + a
 	~/.config/sxhkd/sp.sh termitesp termitespw 2880x1944+0+108
 
-# east panel
+# east scratchpad
 super + shift + d
 	~/.config/sxhkd/sp.sh termitesp termitespe 2880x1944+960+108
 
-# north panel
+# north scratchpad
 super + shift + w
 	~/.config/sxhkd/sp.sh termitesp termitespn 3456x1620+192+0
 
-# south panel
+# south scratchpad
 super + shift + s
 	~/.config/sxhkd/sp.sh termitesp termitesps 3456x1620+192+506
+
+# keyboard help
+super + shift + q
+	~/.config/sxhkd/sp.sh termitesp keyhelp 1280x1620+1280+270 "vimpager $HOME/.config/sxhkd/sxhkdrc"
 
 # terminal emulator
 super + Return
