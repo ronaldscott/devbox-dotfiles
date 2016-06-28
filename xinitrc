@@ -37,6 +37,7 @@ xsetroot -cursor_name left_ptr
 
 /usr/bin/VBoxClient-all
 
+statnot ~/.config/statnot/statnot.conf &
 yabar & 
 stalonetray & 
 sxhkd &

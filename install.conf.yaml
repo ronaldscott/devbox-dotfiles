@@ -23,6 +23,7 @@
     ~/.config/termite: config/termite
     ~/.config/powerline: config/powerline
     ~/.config/gsimplecal: config/gsimplecal
+    ~/.config/statnot: config/statnot
     ~/.stalonetrayrc: stalonetrayrc
     ~/.vscode: vscode
     ~/.asoundrc: asoundrc

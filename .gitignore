@@ -2,3 +2,4 @@ config/Code/storage.json
 profile.d/*.bash
 vim/.netrwhist
 *.swp
+config/statnot/statnot.confc
