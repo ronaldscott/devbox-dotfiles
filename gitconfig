@@ -5,3 +5,5 @@
 	editor = vim
 [alias]
 	pushl = !~/.bin/git/pushl.sh
+[diff]
+	tool = vimdiff
