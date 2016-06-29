@@ -32,6 +32,10 @@
     ~/.vim: vim 
     ~/liquidprompt: liquidprompt
     ~/.bin: bin
+    ~/.mailcap: mailcap
+    ~/.mbsyncrc: mbsyncrc
+    ~/.notmuch-config: notmuch-config
+    ~/.offlineimaprc: offlineimaprc
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
